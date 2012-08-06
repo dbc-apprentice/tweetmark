@@ -14,7 +14,8 @@ group :development, :test do
   gem 'fabrication', '2.2.2'
   gem 'launchy', '2.1.2'
   gem 'guard-rspec', '1.2.1'
-  gem 'spork', '~> 1.0rc'
+  gem 'guard-spork', '0.3.2'
+  gem 'spork', '0.9.0'
   gem 'faker'
 end
 
