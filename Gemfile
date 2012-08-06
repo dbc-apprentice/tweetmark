@@ -15,6 +15,7 @@ group :development, :test do
   gem 'launchy', '2.1.2'
   gem 'guard-rspec', '1.2.1'
   gem 'spork', '~> 1.0rc'
+  gem 'faker'
 end
 
 # Gems used only for assets and not required
