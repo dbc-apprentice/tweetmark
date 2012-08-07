@@ -1,7 +1,7 @@
 class User < ActiveRecord::Base
   attr_accessible :auth_secret, :auth_token, :name, :provider, :twitter_name, :uid, :image_url
 
-  def self.create_with_omniauth(auth)
+  def self.create_from_omniauth(auth)
       create! do |user|
         user.provider = auth["provider"]
         user.uid = auth["uid"]

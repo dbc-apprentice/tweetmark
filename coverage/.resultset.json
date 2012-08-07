@@ -10,7 +10,7 @@
         1,
         null,
         1,
-        0,
+        1,
         null,
         null
       ],
@@ -29,6 +29,8 @@
       "/Users/apprentice/Desktop/Tweetmark/tweetmark/app/controllers/sessions_controller.rb": [
         1,
         1,
+        0,
+        0,
         0,
         0,
         0,
@@ -52,19 +54,19 @@
         1,
         null,
         1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
         null,
         null,
         null
       ]
     },
-    "timestamp": 1344362858
+    "timestamp": 1344366598
   }
 }
