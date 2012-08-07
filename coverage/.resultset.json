@@ -1,0 +1,95 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/apprentice/Desktop/Tweetmark/tweetmark/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null
+      ],
+      "/Users/apprentice/Desktop/Tweetmark/tweetmark/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/apprentice/Desktop/Tweetmark/tweetmark/app/helpers/sessions_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/apprentice/Desktop/Tweetmark/tweetmark/app/helpers/twittertokens_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/apprentice/Desktop/Tweetmark/tweetmark/app/helpers/users_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/apprentice/Desktop/Tweetmark/tweetmark/app/controllers/sessions_controller.rb": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null
+      ],
+      "/Users/apprentice/Desktop/Tweetmark/tweetmark/app/controllers/twittertokens_controller.rb": [
+        1,
+        1,
+        0,
+        null,
+        null,
+        null,
+        null,
+        0,
+        null,
+        null,
+        null,
+        null,
+        0,
+        0,
+        null,
+        null
+      ],
+      "/Users/apprentice/Desktop/Tweetmark/tweetmark/app/controllers/users_controller.rb": [
+        1,
+        0,
+        null,
+        null,
+        0,
+        null,
+        null
+      ],
+      "/Users/apprentice/Desktop/Tweetmark/tweetmark/app/models/user.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1344302328
+  }
+}
