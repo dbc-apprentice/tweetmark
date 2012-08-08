@@ -2,6 +2,7 @@ class User < ActiveRecord::Base
   attr_accessible :auth_secret, :auth_token, :name, :provider, :twitter_name, :uid, :image_url
 
   has_many :tweets
+  hes_many :hashtags, :through => :tweets
 
   def self.create_with_omniauth(auth)
       create! do |user|
