@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.7'
 gem 'pg', '0.14.0'
 gem 'omniauth-twitter'
+gem 'twitter_oauth', '~> 0.4.3'
 
 
 group :development, :test do
