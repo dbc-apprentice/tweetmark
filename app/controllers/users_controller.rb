@@ -1,5 +1,13 @@
 class UsersController < ApplicationController
   def show
-    @tweets = Tweet.get_user_tweets.inspect
+
+  end
+
+  def new
+    @user = User.new
+  end
+
+  def create
+
   end
 end

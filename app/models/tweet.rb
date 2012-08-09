@@ -16,11 +16,4 @@ class Tweet < ActiveRecord::Base
     return client
   end
 
-  request_token = client.request_token(:oauth_callback => oauth_confirm_url)
-  #:oauth_callback required for web apps, since oauth gem by default force PIN-based flow
-  #( see http://groups.google.com/group/twitter-development-talk/browse_thread/thread/472500cfe9e7cdb9/848f834227d3e64d )
-
-
-  request_token.authorize_url
-  => http://twitter.com/oauth/authorize?oauth_token=TOKEN
 end
