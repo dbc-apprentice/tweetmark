@@ -1,4 +1,8 @@
 Tweetmark::Application.routes.draw do
+  get "new/create"
+
+  get "new/destroy"
+
   get "hashtags/new"
 
   get "hashtags/create"
