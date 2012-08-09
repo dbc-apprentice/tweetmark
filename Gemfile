@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source :rubygems
 
 gem 'rails', '3.2.7'
 gem 'pg', '0.14.0'
@@ -28,6 +28,8 @@ group :assets do
   gem 'coffee-rails', '3.2.2'
   gem 'haml', '3.1.6'
   gem 'uglifier', '1.2.7'
+  gem 'compass-rails', '~> 1.0.3'
+  gem 'zurb-foundation', '~> 3.0.1'
 end
 
 gem 'jquery-rails', '2.0.2'
