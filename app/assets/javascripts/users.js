@@ -505,7 +505,7 @@ $(function() {
     $container.imagesLoaded( function(){
       $container.masonry({
         itemSelector : '.box',
-        columnWidth: 250
+        columnWidth: 100
       });
     });
 });
