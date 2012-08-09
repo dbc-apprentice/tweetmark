@@ -11,12 +11,25 @@ h4 {
     margin-top:-20px;
 }
 
-.hashtag {
-    width:220px;
-    padding:20px;
+//.box {
+//    width:220px;
+//
+//
+//    margin:0px;
+//
+//}
+#container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.box {
     border:5px solid gray;
-    margin:0px;
-    -mox-box-shadow: 5px 5px 5px #777777;
+    padding:20px;
+    width: 220px;
+    margin: 5px 0px;
+    float: left;
+    -moz-box-shadow: 5px 5px 5px #777777;
     -webkit-b-x-shadow: 5px 5px 5px #777777;
     box-shadow: 5px 5px 5px #777777;
 }
